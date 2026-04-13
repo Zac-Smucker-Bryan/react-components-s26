@@ -20,9 +20,7 @@ const Welcome = () => {
                         className="w-25" 
                         id="name" 
                         onChange={
-                            event => {
-                                setName(event.target.value);
-                            }
+                            event => setName(event.target.value)
                         }
                         type="text"
                         value={name}
@@ -41,7 +39,7 @@ const Welcome = () => {
                 >
                     Enter
                 </Button>
-                
+
                 <Button className="ms-2" 
                         onClick={
                             () => {
