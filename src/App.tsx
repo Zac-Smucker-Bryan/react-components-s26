@@ -4,8 +4,6 @@ import PizzaToppings from "./PizzaToppings";
 import TsteeleComponent from "./TsteeleComponent";
 import Welcome from "./Welcome";
 import ThamiltonComponent from "./ThamiltonComponent";
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
