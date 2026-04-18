@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
 outDir: "docs",
   },
-  base: "react-components-s26/",
+  base: "/react-components-s26/",
 })
